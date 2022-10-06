@@ -36,7 +36,7 @@ POST http://localhost:9191/api/csv/upload
 – Subscriber data model class corresponds to entity and table subsriber.
 – SubscriberRepository is an interface that extends JpaRepository for persisting data.
 
-– CSVService uses CSVHelper and TutorialRepository methods to save CSV data to MySQL, load data to export CSV file, or get all Subscriber from MySQL table.
+– CSVService uses CSVHelper and SubsRepository methods to save CSV data to MySQL, load data to export CSV file, or get all Subscriber from MySQL table.
 
 – CSVController calls CSVService methods and export Rest APIs: upload CSV file, get data from MySQL database.
 
